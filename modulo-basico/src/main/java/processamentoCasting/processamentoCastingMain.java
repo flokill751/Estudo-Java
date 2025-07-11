@@ -1,6 +1,6 @@
-package EntradaDeDados;
+package processamentoCasting;
 
-public class entradaMain {
+public class processamentoCastingMain {
     public static void main(String[] args) {
 
         double b,B,h,area;

@@ -1,4 +1,4 @@
-package SaidaDeDados;
+package saidaDeDados;
 
 import java.util.Locale;
 
