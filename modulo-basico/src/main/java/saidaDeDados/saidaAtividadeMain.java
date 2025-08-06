@@ -3,7 +3,7 @@ package saidaDeDados;
 import java.util.Locale;
 
 public class saidaAtividadeMain {
-    public void main(String[] args) {
+    public static void main(String[] args) {
 
 
                 String produto1 = "Computador";

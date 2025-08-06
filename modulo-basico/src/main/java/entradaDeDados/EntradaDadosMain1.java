@@ -1,41 +1,65 @@
 package entradaDeDados;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class EntradaDadosMain1 {
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
+        Scanner entrada = new Scanner(System.in);
 
-        String zucleide;
-        zucleide = sc.next();
+        String x;
 
-        System.out.println("teu nome e = " + zucleide);
+        x = entrada.next();
 
-
-    int x;
-
-    x = sc.nextInt();
-
-    System.out.println("Numeros de buneca " + x);
-
-    double dinossauro;
-
-    dinossauro = sc.nextDouble();
-
-    System.out.printf("preço do seu dinossauro %.2f$%n", dinossauro );
+        System.out.println("iiiii voce digitou "  + x);
 
 
-    char tioo;
+        Scanner entrada2 = new Scanner(System.in);
 
-    tioo = sc.next().charAt(5);
+        int y;
 
-    System.out.println("koko coco cacho = " + tioo);
+        y = entrada2.nextInt();
+
+        System.out.println(" o numero de = " + y);
+
+        Locale.setDefault(Locale.US);
+        Scanner entrada3 = new Scanner(System.in);
 
 
+        double o;
+        o = entrada3.nextDouble();
 
-    sc.close();
+        System.out.println(" o numero de = " + o);
 
+       double oPrintf;
+        oPrintf = entrada3.nextDouble();
+        System.out.printf(" Seu numero e %f.6%n", oPrintf);
+
+
+        Scanner entrada4 = new Scanner(System.in);
+
+        char padeiro;
+        padeiro = entrada4.next().charAt(0);
+
+        System.out.println("voce digitou = " + padeiro);
+
+        Scanner finalmente = new Scanner(System.in);
+
+        String z;
+        int Z;
+        double p;
+
+        z = finalmente.next();
+        Z = finalmente.nextInt();
+        p = finalmente.nextDouble();
+
+        System.out.println("Dados digitados: ");
+        System.out.println(z);
+        System.out.println(Z);
+        System.out.printf("%f.10%n",p);
+
+        entrada.close();
 
     }
 }

@@ -28,7 +28,25 @@ public class funMatematicaMain {
         B = Math.abs(z);
 
         System.out.println("Valor absoluto de " + y + " = " + A );
-        System.out.println( x + "elevando ao quandrado " + B);
+        System.out.println( x + " elevando ao quandrado " + B);
+
+
+
+        double j = 100;
+        double k = 2;
+        double l = 3;
+
+        double delta = Math.pow (k, 2.0) - 4*j*l;
+
+        if (delta < 0) {
+            System.out.println( "existi nao pae.");
+        }else {
+            double x1 = (-k + Math.sqrt(delta)) / (2.0 * j);
+            double x2 = (-k - Math.sqrt(delta)) / (2.0 * j);
+
+            System.out.println("x1 = " + x1 + " x2 = " + x2);
+        }
+
 
     }
 }
