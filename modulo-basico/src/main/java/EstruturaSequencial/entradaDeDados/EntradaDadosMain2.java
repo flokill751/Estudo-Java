@@ -1,4 +1,4 @@
-package entradaDeDados;
+package EstruturaSequencial.entradaDeDados;
 
 import java.util.Scanner;
 

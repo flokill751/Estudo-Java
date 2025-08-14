@@ -1,4 +1,4 @@
-package saidaDeDados;
+package EstruturaSequencial.saidaDeDados;
 
 import java.util.Locale;
 

@@ -1,4 +1,4 @@
-package processamentoCasting;
+package EstruturaSequencial.processamentoCasting;
 
 public class processamentoCastingMain {
     public static void main(String[] args) {

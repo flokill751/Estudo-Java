@@ -1,4 +1,4 @@
-package funcoesMatematicas;
+package EstruturaSequencial.funcoesMatematicas;
 
 import java.util.Locale;
 import java.util.Scanner;

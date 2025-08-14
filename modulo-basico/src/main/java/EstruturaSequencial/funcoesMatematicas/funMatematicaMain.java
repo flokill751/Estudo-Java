@@ -1,4 +1,4 @@
-package funcoesMatematicas;
+package EstruturaSequencial.funcoesMatematicas;
 
 public class funMatematicaMain {
     public static void main(String[] args) {
