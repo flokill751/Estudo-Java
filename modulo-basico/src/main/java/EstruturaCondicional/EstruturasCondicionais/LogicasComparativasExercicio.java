@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class LogicasComparativasExercicio {
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
 
+        Scanner sc = new Scanner(System.in);
         exercicio1(sc);
         System.out.println();
         exercicio2(sc);
