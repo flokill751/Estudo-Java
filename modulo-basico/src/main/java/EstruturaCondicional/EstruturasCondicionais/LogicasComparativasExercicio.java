@@ -1,8 +1,8 @@
-package estruturaCondicional.CondicionaisLógicasComparativas;
+package EstruturaCondicional.EstruturasCondicionais;
 
 import java.util.Scanner;
 
-public class EstruturaCondicionalExercicio {
+public class LogicasComparativasExercicio {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -20,7 +20,7 @@ public class EstruturaCondicionalExercicio {
         sc.close();
 
     }
-        public static void exercicio1 (Scanner sc){
+    public static void exercicio1 (Scanner sc){
 
         System.out.println("Digite o numero");
 
@@ -36,7 +36,7 @@ public class EstruturaCondicionalExercicio {
         }
     }
 
-        public static void exercicio2 (Scanner sc){
+    public static void exercicio2 (Scanner sc){
 
         System.out.println("Digite o numero");
         int N = sc.nextInt();
@@ -45,23 +45,23 @@ public class EstruturaCondicionalExercicio {
             System.out.println("PAR KARALHO");
         } else
             System.out.println("IMPAR PORAAAAAAAA");
+    }
+
+    public static void exercicio3 (Scanner sc) {
+
+        int A, B;
+
+        A = sc.nextInt();
+        B = sc.nextInt();
+
+        if (A % 2 == 0 && B % 2 == 0) {
+            System.out.println("Sao Multiplo");
+        }else{
+
+            System.out.println("Nao SaoMultiplo");
         }
-
-        public static void exercicio3 (Scanner sc) {
-
-            int A, B;
-
-            A = sc.nextInt();
-            B = sc.nextInt();
-
-            if (A % 2 == 0 && B % 2 == 0) {
-                System.out.println("Sao Multiplo");
-            }else{
-
-                System.out.println("Nao SaoMultiplo");
-            }
-        }
-        public static void exercicio4 (Scanner sc){
+    }
+    public static void exercicio4 (Scanner sc){
 
         int hrinit, hrfn;
 
@@ -81,4 +81,4 @@ public class EstruturaCondicionalExercicio {
 
 
     }
-    }
+}
