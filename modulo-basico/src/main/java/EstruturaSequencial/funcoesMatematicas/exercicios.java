@@ -19,7 +19,8 @@ public class exercicios {
         exercicio4(entrada);
         System.out.println();
         exercicio5(entrada);
-
+        System.out.println();
+        exercicio6(entrada);
 
         entrada.close();
 
@@ -116,13 +117,11 @@ public class exercicios {
         QUADRADO = B * B;
         RETAGULO = A * B;
 
-
         System.out.printf("TRIANGULO: %.3f%n", TRIANGULO);
         System.out.printf("CIRCULO: %.3f%n", CIRCULO);
         System.out.printf("TRAPEZIO: %.3f%n", TRAPEZIO);
         System.out.printf("QUADRADO: %.3f%n", QUADRADO);
         System.out.printf("RETANGULO: %.3f%n", RETAGULO);
-
 
 
     }
