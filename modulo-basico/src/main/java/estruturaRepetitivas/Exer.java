@@ -6,11 +6,11 @@ public class Exer {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-     /*   exercicio1(sc);
+       exercicio1(sc);
         System.out.println();
         exercicio2(sc);
         System.out.println();
-        exercicio3(sc);*/
+        exercicio3(sc);
         System.out.println();
         exercicio4(sc);
 
